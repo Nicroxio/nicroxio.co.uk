@@ -1,0 +1,49 @@
+body {
+  color: #f4d7f0;
+  background: #140612;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:20px;
+  font-family:sans-serif;
+}
+p {
+  padding:20px;
+}
+h1, h2, h3 {
+  color:#c2386d;
+}
+a {
+  color: #f4d7f0;
+}
+.bi {
+  scale:10%;
+  display: flex;
+}
+.resright, .resleft, .profile {
+  display: block;
+  float: right;
+  clear: both;
+  padding: 20px;
+  max-width: 300px;
+}
+.resleft {
+  float: left;
+  margin:auto;
+  display:block;
+  text-align:center;
+  max-width:300px;
+}
+.resright {
+  margin:auto;
+  display:block;
+  text-align:center;
+  max-width:300px;
+}
+.center {
+  margin: auto;
+  display:block;
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
