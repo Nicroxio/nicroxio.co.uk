@@ -52,7 +52,7 @@ body{
 }
 
 .altcolor{
-  color: var(--yellow);
+  color: var(--green);
 }
 
 
@@ -105,4 +105,19 @@ body{
   .button {
     padding: 12px 50px;
   }
+}
+
+@keyframes bwian_scale{
+  from{
+    width:1px;
+    height: 1px;
+  }
+  to{
+    width:100000px;
+    height:100000px;
+  }
+}
+
+.bwian{
+  animation: bwian_scale 1000s;
 }
