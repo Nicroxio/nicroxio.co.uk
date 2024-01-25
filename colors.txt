@@ -1,7 +1,0 @@
-
-Primary: #f4d7f0 (RGB: 244, 215, 240)
-Secondary: #140612 (RGB: 20, 6, 18)
-Primary Button: #c2386d (RGB: 194, 56, 109)
-Secondary Button: #000000 (RGB: 0, 0, 0)
-Accent: #732b21 (RGB: 115, 43, 33)
-Background: #350d2e
