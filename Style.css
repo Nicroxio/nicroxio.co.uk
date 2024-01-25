@@ -1,5 +1,6 @@
 :root{
   --black:rgb(60,56,54);
+  --offblack: rgb(54, 51, 49);
   --grey:rgb(168, 153, 132);
   --red:rgb(204,36,29);
   --orange:rgb(254, 128, 25);
@@ -89,6 +90,7 @@ body{
 
 .button:hover {
   text-decoration: none;
+  background-color: var(--offblack);
 }
 
 .button:active {
