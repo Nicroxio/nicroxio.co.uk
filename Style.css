@@ -33,19 +33,24 @@ body{
   /* background-color: var(--red); */
 }
 .left{
+  background-color: var(--offblack);
   flex-grow: 1; 
   flex-basis: 33%;
   text-align: center;
   justify-content: center;
+  
 }
 .center{
-
+  background-color: var(--offblack);
   flex-grow: 1;
   flex-basis: 33%;
   text-align: center;
   justify-content: center;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .right{
+  background-color: var(--offblack);
   flex-grow: 1;
   flex-basis: 33%;
   text-align: center;
