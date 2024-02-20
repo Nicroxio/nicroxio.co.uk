@@ -68,7 +68,7 @@ body{
   background-image: none;
   border: 1px solid #000;
   border-radius: 4px;
-  box-shadow: var(--white) 4px 4px 0 0,var(--black) 4px 4px 0 1px;
+  box-shadow: #000 4px 4px 0 0,var(--black) 4px 4px 0 1px; 
   box-sizing: border-box;
   color: var(--white);
   cursor: pointer;
@@ -104,7 +104,7 @@ body{
 }
 
 .button:not([disabled]):active {
-  box-shadow: var(--white) 2px 2px 0 0, #000 2px 2px 0 1px;
+  box-shadow: #000 2px 2px 0 0, #000 2px 2px 0 1px;
   transform: translate(2px, 2px);
 }
 
