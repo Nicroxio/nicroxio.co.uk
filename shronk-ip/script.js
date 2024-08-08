@@ -10,8 +10,8 @@ var ip = fetch("https://ip.shronk.nicroxio.co.uk").then((r) =>
     const isoCode = document.createElement("p");
 
     ipElement.textContent = "IP Address: " + data.ip;
-    cityElement.textContent = "City Name: " + data.city_name;
-    countryElement.textContent = "Country Name: " + data.country_name;
+    cityElement.textContent = "City Name: " + data.city;
+    countryElement.textContent = "Country Name: " + data.country;
     brexitRequired.textContent =
       "Brexit Required: " + data.is_in_european_union;
     isoCode.textContent = "Iso Code: " + data.iso_code;
